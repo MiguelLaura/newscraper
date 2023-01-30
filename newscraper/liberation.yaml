@@ -1,0 +1,15 @@
+---
+iterator: article
+fields:
+  url:
+    sel: a
+    attr: href
+  categorie:
+    # won't work for the first three articles
+    sel: div .sc-evZas.frqnrr
+  titre:
+    sel: a
+    attr: title
+  date:
+    # won't work for the first three articles
+    sel: div .sc-evZas.sc-ehmTmK.hLKOCV.hdCWYM

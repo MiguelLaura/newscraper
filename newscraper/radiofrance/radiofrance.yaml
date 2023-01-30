@@ -1,0 +1,14 @@
+---
+iterator: div .CardMedia.horizontal.svelte-r2mnfu
+fields:
+  url:
+    sel: div .CardDetails-title.svelte-15x3lkf > a
+    attr: href
+  categorie:
+    sel: a
+    attr: title
+  titre:
+    sel: div .CardDetails-title.svelte-15x3lkf > a
+    attr: title
+  date:
+    sel: time

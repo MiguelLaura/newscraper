@@ -1,0 +1,12 @@
+__pycache__
+.DS_Store
+.python-version
+.vscode
+*.pyx
+*.pyc
+*.egg-info
+.github
+browser_info
+
+build
+dist
